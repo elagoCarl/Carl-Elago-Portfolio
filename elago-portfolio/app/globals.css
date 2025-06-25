@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
-*{
-  font-family: Outfit;
+/* Set default font to Outfit */
+* {
+  font-family: var(--font-outfit), sans-serif;
+}
+
+/* Optional: Create utility classes for specific font usage */
+.font-outfit {
+  font-family: var(--font-outfit), sans-serif;
+}
+
+.font-ovo {
+  font-family: var(--font-ovo), serif;
 }
