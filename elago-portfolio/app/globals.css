@@ -13,3 +13,23 @@
 .font-ovo {
   font-family: var(--font-ovo), serif;
 }
+
+.shadow-black {
+  box-shadow: 4px 4px 0 #000;
+}
+
+.shadow-white {
+  box-shadow: 4px 4px 0 #fff;
+}
+
+.lightHover {
+  color: #fcf4ff;
+}
+
+.darkHover {
+  color: #2a004a;
+}
+
+.darkTheme {
+  color: #11001f;
+}

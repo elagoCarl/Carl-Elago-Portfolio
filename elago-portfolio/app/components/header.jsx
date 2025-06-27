@@ -17,7 +17,7 @@ const header = () => {
         <Image src={assets.hand_icon} alt="" className='w-6 ' />
       </h3>
       <h1 className='text-2xl sm:text-4xl lg:text-[60px] font-ovo'>
-        Aspiring Web Developer
+        Aspiring Software Engineer
       </h1>
       <p className='max-w-2xl mx-auto font-ovo'>
         Backend-focused Computer Science graduate specializing in building scalable server-side solutions with Node.js, JavaScript, and Java.
