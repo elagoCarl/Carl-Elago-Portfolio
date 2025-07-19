@@ -14,12 +14,16 @@ const about = () => {
                 About Me
             </h2>
 
-            <div className='flex w-full flex-col lg:flex-row items-center mt-10 gap-10'>
-                <div className='w-64 sm:w-80 rounded-3xl max-w-none'>
-                    <Image src={assets.user_image} alt='User Image' className='w-full rounded-3xl' />
+            <div className='flex w-full flex-col lg:flex-row items-center justify-center mt-10 gap-8 lg:gap-12 max-w-6xl mx-auto'>
+                <div className='w-64 sm:w-72 lg:w-80 xl:w-96 rounded-3xl flex-shrink-0 mb-5'>
+                    <Image
+                        src={assets.user_image}
+                        alt='User Image'
+                        className='w-full rounded-3xl shadow-lg hover:shadow-xl transition-shadow duration-300'
+                    />
                 </div>
-                <div className='flex-1 '>
-                    <p className='mb-10 max-w-2xl mx-auto font-ovo'>
+                <div className='flex-1 min-w-0'>
+                    <p className='mb-10 max-w-2xl mx-auto font-ovo text-gray-700 leading-relaxed'>
                         A Computer Science graduate with a passion for building robust, scalable backend systems that power exceptional web experiences. With solid expertise in server-side technologies including Node.js, JavaScript, and Java, I develop efficient APIs and database solutions that ensure seamless performance across applications. As a recent graduate, I'm committed to deepening my full-stack capabilities while specializing in backend development. My experience spans both server-side and client-side technologies, including ReactJS and responsive design principles. I bring innovative thinking, analytical problem-solving abilities, and a genuine enthusiasm for tackling complex technical challenges to every development project.
                     </p>
                     <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl mx-auto'>
@@ -49,28 +53,17 @@ const about = () => {
                                 <div className='absolute bottom-0 left-0 h-1 w-0 bg-gradient-to-r from-blue-200 to-purple-300 group-hover:w-full transition-all duration-700 ease-out rounded-b-2xl'></div>
 
                                 {/* Optional: Arrow icon that appears on hover */}
-                                {/* <div className='absolute top-6 right-6 opacity-0 group-hover:opacity-100 transform translate-x-2 group-hover:translate-x-0 transition-all duration-500 ease-out delay-200'>
+                                <div className='absolute top-6 right-6 opacity-0 group-hover:opacity-100 transform translate-x-2 group-hover:translate-x-0 transition-all duration-500 ease-out delay-200'>
                                     <svg className='w-5 h-5 text-gray-400 group-hover:text-gray-600'
                                         fill='none' stroke='currentColor' viewBox='0 0 24 24'>
                                         <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2}
                                             d='M17 8l4 4m0 0l-4 4m4-4H3' />
                                     </svg>
-                                </div> */}
+                                </div>
                             </li>
                         ))}
                     </ul>
 
-                    <h4 className='my-6 text-gray-700 font-ovo max-w-2xl mx-auto'>
-                        Tools I use
-                    </h4>
-
-                    <ul className='flex items-center gap-3 sm:gap-5 max-w-2xl mx-auto'>
-                        {toolsData.map((tool, index) => (
-                            <li key={index} className='flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 bg-gray-100 rounded-full shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out'>
-                                <Image src={tool} alt='Tool' className='w-5 sm:w-7' />
-                            </li>
-                        ))}
-                    </ul>
                 </div>
             </div>
 
