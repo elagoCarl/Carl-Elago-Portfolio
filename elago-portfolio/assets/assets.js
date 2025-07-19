@@ -35,6 +35,8 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import cbznDtrSampleImg from './cbznDtrSampleImg.png';
+import easeSchedulerSampleImg from './easeSchedulerSampleImg.png';
 
 export const assets = {
     user_image,
@@ -73,29 +75,27 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    cbznDtrSampleImg,
+    easeSchedulerSampleImg
 };
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'EaseScheduler: A Web-Based Automated Timetabling Platform for CEU Makati',
+        description: 'A full-stack web application that automates the scheduling process at CEU Makati using the Backtracking Algorithm, enhancing efficiency and user experience.',
+        bgImage: assets.easeSchedulerSampleImg,
+        liveLink: 'https://ease-scheduler.vercel.app', // Replace with actual link
+        githubLink: 'https://github.com/elagoCarl/EaseScheduler', // Replace with actual GitHub link
+        technologies: ['React.js', 'Node.js', 'Express.js', 'MySQL', 'Backtracking Algorithm', 'JWT Authentication', 'RESTful API', 'Axios', 'Tailwind CSS', 'Framer Motion']
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
-    },
-    {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
-    },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        title: 'Employee Daily Time Record System',
+        description: 'A Web-Based Daily Time Record System for CBZN Corporations',
+        bgImage: assets.cbznDtrSampleImg,
+        liveLink: 'https://your-dtr-system-link.com', // Replace with actual link
+        githubLink: 'https://github.com/elagoCarl/CBZN_EMS', // Replace with actual GitHub link
+        technologies: ['React.js', 'Node.js', 'Express.js', 'MySQL', 'JWT Authentication', 'RESTful API', 'Axios', 'Tailwind CSS']
     },
 ]
 
@@ -107,9 +107,9 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Node Js' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages & Frameworks', description: 'HTML, Tailwind CSS, Express Js, JavaScript React Js, Node Js' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Bachelor of Science in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Pre-Professional Projects' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built 2 Full Stack Pre-Professional Projects' }
 ];
 
 export const toolsData = [

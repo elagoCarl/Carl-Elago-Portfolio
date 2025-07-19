@@ -33,3 +33,24 @@
 .darkTheme {
   color: #11001f;
 }
+
+/* Ensure smooth transitions for dark mode */
+* {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+
+/* Optional: Add custom dark mode styles if needed */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Prevent flash of unstyled content */
+html:not(.dark) {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
