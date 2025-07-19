@@ -37,6 +37,14 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import cbznDtrSampleImg from './cbznDtrSampleImg.png';
 import easeSchedulerSampleImg from './easeSchedulerSampleImg.png';
+import nodejsLogo from './nodejsLogo.png';
+import mySqlLogo from './mySqlLogo.png';
+import vercelLogo from './vercelLogo.png';
+import htmlLogo from './htmlLogo.png';
+import tailwindCssLogo from './tailwindCssLogo.png';
+import jsLogo from './jsLogo.png';
+import cssLogo from './cssLogo.png';
+import reactLogo from './reactLogo.png';
 
 export const assets = {
     user_image,
@@ -77,7 +85,15 @@ export const assets = {
     right_arrow_bold,
     right_arrow_bold_dark,
     cbznDtrSampleImg,
-    easeSchedulerSampleImg
+    easeSchedulerSampleImg,
+    nodejsLogo,
+    mySqlLogo,
+    vercelLogo,
+    htmlLogo,
+    tailwindCssLogo,
+    jsLogo,
+    cssLogo,
+    reactLogo
 };
 
 export const workData = [
@@ -113,5 +129,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.htmlLogo, assets.cssLogo, assets.tailwindCssLogo, assets.jsLogo, assets.vscode, assets.reactLogo, assets.nodejsLogo, assets.mongodb, assets.figma, assets.git, assets.mySqlLogo, assets.vercelLogo,
 ];
