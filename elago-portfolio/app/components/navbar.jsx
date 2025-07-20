@@ -34,7 +34,6 @@ const Navbar = () => {
         { href: '#skills', label: 'Skills' },
         { href: '#projects', label: 'Projects' },
         { href: '#experience', label: 'Experience' },
-        { href: '#contact', label: 'Contact me' }
     ];
 
     return (
@@ -44,8 +43,8 @@ const Navbar = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
                 className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 transition-all duration-500 ${isScroll
-                        ? "bg-white/90 dark:bg-gray-900/90 backdrop-blur-xl shadow-lg border-b border-gray-200/30 dark:border-gray-700/30"
-                        : "bg-white/70 dark:bg-gray-900/70 backdrop-blur-md"
+                    ? "bg-white/90 dark:bg-gray-900/90 backdrop-blur-xl shadow-lg border-b border-gray-200/30 dark:border-gray-700/30"
+                    : "bg-white/70 dark:bg-gray-900/70 backdrop-blur-md"
                     }`}
             >
                 {/* Logo */}
@@ -60,8 +59,8 @@ const Navbar = () => {
                 {/* Desktop Navigation */}
                 <motion.ul
                     className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-8 lg:px-12 py-3 transition-all duration-500 ${isScroll
-                            ? "bg-white/60 dark:bg-gray-800/60 shadow-lg border border-gray-200/40 dark:border-gray-700/40 backdrop-blur-lg"
-                            : "bg-white/30 dark:bg-gray-800/30 backdrop-blur-sm"
+                        ? "bg-white/60 dark:bg-gray-800/60 shadow-lg border border-gray-200/40 dark:border-gray-700/40 backdrop-blur-lg"
+                        : "bg-white/30 dark:bg-gray-800/30 backdrop-blur-sm"
                         }`}
                     initial={{ opacity: 0, y: -20 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -168,20 +167,6 @@ const Navbar = () => {
                                         </motion.li>
                                     ))}
                                 </ul>
-
-                                {/* Mobile Contact Button */}
-                                <motion.a
-                                    href="#contact"
-                                    onClick={closeMenu}
-                                    className='flex items-center justify-center gap-3 w-full px-6 py-4 bg-gradient-to-r from-gray-800 to-gray-900 dark:from-gray-100 dark:to-gray-200 text-white dark:text-gray-900 rounded-xl font-medium transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1 group mt-12'
-                                    initial={{ opacity: 0, y: 20 }}
-                                    animate={{ opacity: 1, y: 0 }}
-                                    transition={{ duration: 0.4, delay: 0.8 }}
-                                    whileHover={{ scale: 1.02 }}
-                                >
-                                    <span>Get in Touch</span>
-                                    <Image alt='arrow' src={assets.arrow_icon} className='w-4 invert dark:invert-0 transition-transform group-hover:translate-x-1' />
-                                </motion.a>
                             </div>
                         </motion.div>
                     </>

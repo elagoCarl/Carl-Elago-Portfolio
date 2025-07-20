@@ -3,7 +3,7 @@ import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Mail, Download } from 'lucide-react'
+import { Mail, ExternalLink } from 'lucide-react'
 
 const Header = () => {
   // Container animation for staggered children
@@ -173,8 +173,9 @@ const Header = () => {
         </motion.a>
 
         <motion.a
-          href="/sample_resume.pdf"
-          download
+          href="https://drive.google.com/file/d/1qV59yDSyK5L4e9s3PUOJtLE5u2iv0lX_/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
           className='px-8 py-3 border rounded-full border-gray-500 dark:border-gray-400 text-gray-700 dark:text-gray-300 flex items-center gap-3 font-medium hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-300 shadow-md hover:shadow-lg'
           whileHover={{
             scale: 1.05,
@@ -185,13 +186,13 @@ const Header = () => {
           <motion.div
             whileHover={{
               scale: 1.1,
-              y: -2
+              rotate: 15
             }}
             transition={{ type: "spring", stiffness: 400 }}
           >
-            <Download className="w-4 h-4" />
+            <ExternalLink className="w-4 h-4" />
           </motion.div>
-          My Resume
+          View Resume
         </motion.a>
       </motion.div>
 
@@ -204,7 +205,7 @@ const Header = () => {
       >
         <motion.div
           className="w-6 h-10 border-2 border-gray-400 dark:border-gray-500 rounded-full flex justify-center"
-          animate={{ y: [0, 8, 0] }}
+          animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
         >
           <motion.div
