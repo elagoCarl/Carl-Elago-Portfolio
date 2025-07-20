@@ -53,7 +53,7 @@ export const experiences = [
         position: "Full Stack Web Developer Intern",
         location: "Pasig, PH",
         duration: "Feb - May 2025",
-        description: "Contributed to various web development projects and learned agile development methodologies. Worked closely with senior developers.",
+        description: "Contributed to a prototype web development project and learned agile development methodologies. Worked closely with senior developers.",
         technologies: ["Java", "JavaScript", "HTML", "Tailwind CSS", "Node.js", "Express.js", "React.js", "MySQL", "Git", "GitHub", "SDLC", "OTP Verification", "REST APIs", "Express.js", "JWT Authentication", "Email Authentication", "Trello"],
         achievements: [
             "Completed 1 Full Stack prototype project for the company",

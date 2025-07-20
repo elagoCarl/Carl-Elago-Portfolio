@@ -115,19 +115,10 @@ const Projects = () => {
                                         </p>
 
                                         <div className='flex gap-6'>
-                                            <button
-                                                className='text-sm text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors flex items-center gap-2'
-                                                onClick={(e) => {
-                                                    e.stopPropagation();
-                                                    handleProjectClick(project);
-                                                }}
-                                            >
-                                                View Demo
-                                                <ExternalLink className="w-4 h-4" />
-                                            </button>
+
                                             {project.githubLink && (
                                                 <button
-                                                    className='text-sm text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 transition-colors flex items-center gap-2'
+                                                    className='text-sm text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 transition-colors flex items-center gap-2 cursor-pointer'
                                                     onClick={(e) => handleGithubClick(e, project.githubLink)}
                                                 >
                                                     Source
