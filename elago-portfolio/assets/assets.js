@@ -109,7 +109,7 @@ export const workData = [
         title: 'Employee Daily Time Record System',
         description: 'A Web-Based Daily Time Record System for CBZN Corporations',
         bgImage: assets.cbznDtrSampleImg,
-        liveLink: 'https://your-dtr-system-link.com', // Replace with actual link
+        liveLink: 'https://github.com/elagoCarl/CBZN_EMS', // Replace with actual link
         githubLink: 'https://github.com/elagoCarl/CBZN_EMS', // Replace with actual GitHub link
         technologies: ['React.js', 'Node.js', 'Express.js', 'MySQL', 'JWT Authentication', 'RESTful API', 'Axios', 'Tailwind CSS']
     },
