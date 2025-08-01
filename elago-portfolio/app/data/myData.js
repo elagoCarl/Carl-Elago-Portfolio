@@ -75,6 +75,18 @@ export const experiences = [
             "Consistent Dean’s List and President’s List recognition / Academic scholarship (2021 - 2025)",
         ]
     },
+    {
+        id: 3,
+        type: "internship",
+        icon: GraduationCap,
+        company: "Philippine GameDev Expo 2025 CBZN Corporations",
+        position: "Volunteer Staff",
+        location: "Pasay SMX MOA, PH",
+        duration: "July 25 - 27, 2024",
+        description: "Assisted in organizing the Philippine GameDev Expo, providing support to exhibitors and attendees. Gained experience in event management and networking within the game development community.",
+        technologies: [],
+        achievements: []
+    },
 ]
 
 export const stats = [
