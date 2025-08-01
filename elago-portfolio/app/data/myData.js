@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Code, Briefcase, GraduationCap, Award, Calendar } from 'lucide-react'
+import { Mail, Phone, MapPin, Code, Briefcase, GraduationCap, Award, Calendar, HeartHandshake } from 'lucide-react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 
@@ -78,11 +78,11 @@ export const experiences = [
     {
         id: 3,
         type: "internship",
-        icon: GraduationCap,
+        icon: HeartHandshake,
         company: "Philippine GameDev Expo 2025 CBZN Corporations",
         position: "Volunteer Staff",
         location: "Pasay SMX MOA, PH",
-        duration: "July 25 - 27, 2024",
+        duration: "July 25 - 27, 2025",
         description: "Assisted in organizing the Philippine GameDev Expo, providing support to exhibitors and attendees. Gained experience in event management and networking within the game development community.",
         technologies: [],
         achievements: []
