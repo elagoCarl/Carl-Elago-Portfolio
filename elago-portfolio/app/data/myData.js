@@ -48,17 +48,14 @@ export const experiences = [
     {
         id: 1,
         type: "internship",
-        icon: Code,
-        company: "CBZN Corporations",
-        position: "Full Stack Web Developer Intern",
-        location: "Pasig, PH",
-        duration: "Feb - May 2025",
-        description: "Contributed to a prototype web development project and learned agile development methodologies. Worked closely with senior developers.",
-        technologies: ["Java", "JavaScript", "HTML", "Tailwind CSS", "Node.js", "Express.js", "React.js", "MySQL", "Git", "GitHub", "SDLC", "OTP Verification", "REST APIs", "Express.js", "JWT Authentication", "Email Authentication", "Trello"],
-        achievements: [
-            "Completed 1 Full Stack prototype project for the company",
-            "Led the intern team in the development of a web application",
-        ]
+        icon: HeartHandshake,
+        company: "Philippine GameDev Expo 2025 CBZN Corporations",
+        position: "Volunteer Staff",
+        location: "Pasay SMX MOA, PH",
+        duration: "July 25 - 27, 2025",
+        description: "Assisted in organizing the Philippine GameDev Expo, providing support to exhibitors and attendees. Gained experience in event management and networking within the game development community.",
+        technologies: [],
+        achievements: []
     },
     {
         id: 2,
@@ -78,14 +75,17 @@ export const experiences = [
     {
         id: 3,
         type: "internship",
-        icon: HeartHandshake,
-        company: "Philippine GameDev Expo 2025 CBZN Corporations",
-        position: "Volunteer Staff",
-        location: "Pasay SMX MOA, PH",
-        duration: "July 25 - 27, 2025",
-        description: "Assisted in organizing the Philippine GameDev Expo, providing support to exhibitors and attendees. Gained experience in event management and networking within the game development community.",
-        technologies: [],
-        achievements: []
+        icon: Code,
+        company: "CBZN Corporations",
+        position: "Full Stack Web Developer Intern",
+        location: "Pasig, PH",
+        duration: "Feb - May 2025",
+        description: "Contributed to a prototype web development project and learned agile development methodologies. Worked closely with senior developers.",
+        technologies: ["Java", "JavaScript", "HTML", "Tailwind CSS", "Node.js", "Express.js", "React.js", "MySQL", "Git", "GitHub", "SDLC", "OTP Verification", "REST APIs", "Express.js", "JWT Authentication", "Email Authentication", "Trello"],
+        achievements: [
+            "Completed 1 Full Stack prototype project for the company",
+            "Led the intern team in the development of a web application",
+        ]
     },
 ]
 

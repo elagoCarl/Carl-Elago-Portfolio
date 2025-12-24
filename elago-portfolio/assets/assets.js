@@ -45,6 +45,7 @@ import tailwindCssLogo from './tailwindCssLogo.png';
 import jsLogo from './jsLogo.png';
 import cssLogo from './cssLogo.png';
 import reactLogo from './reactLogo.png';
+import cSharpLogo from './csharp_logo.png';
 
 export const assets = {
     user_image,
@@ -93,7 +94,8 @@ export const assets = {
     tailwindCssLogo,
     jsLogo,
     cssLogo,
-    reactLogo
+    reactLogo,
+    cSharpLogo
 };
 
 export const workData = [
@@ -129,5 +131,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.htmlLogo, assets.cssLogo, assets.tailwindCssLogo, assets.jsLogo, assets.vscode, assets.reactLogo, assets.nodejsLogo, assets.mongodb, assets.figma, assets.git, assets.mySqlLogo, assets.vercelLogo,
+    assets.htmlLogo, assets.cssLogo, assets.tailwindCssLogo, assets.jsLogo, assets.vscode, assets.reactLogo, assets.nodejsLogo, assets.mongodb, assets.figma, assets.git, assets.mySqlLogo, assets.vercelLogo, assets.cSharpLogo
 ];
